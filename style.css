@@ -1,0 +1,75 @@
+/* Overall styles */
+
+* {
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background-color: black;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.header-btn {
+  font-size: 3em;
+  cursor: pointer;
+}
+
+.header-btn:nth-of-type(2) {
+  font-size: 3em;
+  cursor: not-allowed;
+  font-style: italic;
+}
+
+/* Main block */
+
+.main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-box {
+  margin: 20px 0 20px 0;
+}
+
+#score {
+  font-size: 2rem;
+}
+
+.main-btn {
+  cursor: pointer;
+  width: 30%;
+  margin: 10px 0 50px 0;
+}
+
+.main-btn img {
+  max-width: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.main-btn img:hover {
+  opacity: 0.5;
+}
+
+/* Footer block */
+
+.footer {
+  margin: 50px 0 5px 0;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
